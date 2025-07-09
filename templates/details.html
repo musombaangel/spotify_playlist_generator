@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>details</title>
+</head>
+<body>
+    <h1>Enter Your Playlist Details Here</h1>
+    <form id="details-form" name="details-form" method="POST" action="/details">
+        <label for="mood" required>What kind of mood do you want for the playlist?</label><br>
+        <select id="mood" name="mood">
+            <option value="romantic">Romantic</option>
+            <option value="happy">Happy</option>
+            <option value="sad">Sad</option>
+        </select><br><br>
+        <label for="artists">Are there any specific artists you want included?<br>
+        (Separate with a comma)</label><br>
+        <input name="artists" id="artists" placeholder="Billie Eilish, Lady Gaga..."><br><br>
+        <label for="song_no">How many songs do you want in the playlist?</label><br>
+        <input name="song_no" id="song_no" required><br><br>
+        <button type="submit">Generate</button>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,14 @@
+.container {
+  background-color: #6b3f8d; /* deep purple */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-weight: bold;
+  width: 90%;
+  max-width: 500px;
+}
+
+button {
+  background-color: #ffd700;
+}
